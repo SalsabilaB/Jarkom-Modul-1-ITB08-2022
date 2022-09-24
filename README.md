@@ -7,6 +7,31 @@
 | Muhammad Rifqi Fernanda   | 5027201050 |
 | Gilang Bayu Gumantara     | 5027201062 | 
 
+## Soal 1 
+---
+Sebutkan web server yang digunakan pada "monta.if.its.ac.id!
+### Solution 
+---
+Dikarenakan web kita harus memakai display filter yaitu http, lalu kita menemeukan webserver yang digunakan pada "monta.if.its.ac.id yaitu nginx/1.10.3
+![nginx](https://user-images.githubusercontent.com/90242686/192086796-d8b88bd0-0914-48c8-9e19-6009efdd8919.jpeg)
+
+## Soal 2
+---
+Ishaq sedang bingung mencari topik ta untuk semester ini , lalu ia datang ke website monta dan menemukan detail topik pada website “monta.if.its.ac.id” , judul TA apa yang dibuka oleh ishaq ?
+### Solution
+---
+Setelah itu kita menuju ke Statistic lalu ke HTTP dan request sentence untuk mengetahui link website monta dan disitulah judul TA yang ia temukan 
+![ws](https://user-images.githubusercontent.com/90242686/192087253-7dc51422-8160-49c9-a420-9af9d46c8942.jpeg)
+![monta](https://user-images.githubusercontent.com/90242686/192087325-40199dae-5477-41a1-81f1-201329336129.jpeg)
+
+## Soal 3 
+---
+Filter sehingga wireshark hanya menampilkan paket yang menuju port 80! 
+### Solution
+---
+Untuk menampilkan paket yang menuju port 80, kita perlu menggunakan tcp.dstport == 80 dalam display filternya
+![tdcdst](https://user-images.githubusercontent.com/90242686/192088153-2ae89dec-3bd9-4154-a7a4-b65f5b68245c.jpeg)
+
 ## Soal 4
 ---
 Filter sehingga wireshark hanya mengambil paket yang berasal dari port 21!
