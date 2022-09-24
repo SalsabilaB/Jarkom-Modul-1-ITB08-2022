@@ -7,6 +7,56 @@
 | Muhammad Rifqi Fernanda   | 5027201050 |
 | Gilang Bayu Gumantara     | 5027201062 | 
 
+## Soal 4
+---
+Filter sehingga wireshark hanya mengambil paket yang berasal dari port 21!
+
+### Solution
+---
+Karena yang dicari adalah paket yang berasal dari port 21, untuk filternya menggunakan 'tcp.src' karena protocol yang digunakan port 21 adalah tcp.
+Masukkan filter ke dalam display filter.
+tcp.srcport == 21
+![port 21](image/soal4/port 21.png)
+## Soal 5
+---
+Filter sehingga wireshark hanya mengambil paket yang berasal dari port 443!
+
+### Solution
+---
+Karena yang dicari adalah paket yang berasal dari port 443, untuk filternya menggunakan 'tcp.src' & 'udp.src' karena protocol yang digunakan port 443 adalah tcp dan udp.
+Masukkan filter ke dalam display filter.
+tcp.srcport == 443 || udp.srcport == 443
+![port 443](image/soal5/port 443.png)
+
+## Soal 6
+---
+Filter sehingga wireshark hanya menampilkan paket yang menuju ke lipi.go.id !
+
+### Solution
+---
+pertama cari ip dari website lipi.go.id menggunakan cmd
+tracert lipi.go.id
+![iplipi](image/soal6/iplipi.png)
+
+setelah ditemukan ip dari websitenya, masukkan filter ke dalam display filter, karena yang dicari adalah paket yang menuju ke website, filternya menggunakan 'ip.dst'
+ip.dst == 203.160.128.158
+![Jarkom lipi](image/soal6/Jarkom lipi.png)
+
+
+
+## Soal 7
+---
+Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
+
+### Solution
+---
+pertama cari ip dari website lipi.go.id menggunakan cmd
+'ipconfig'
+![ip](image/soal7/ip.png)
+
+setelah ditemukan ip dari device kita, masukkan filter ke dalam display filter, karena yang dicari adalah paket yang berasal dari device kita, filternya menggunakan 'ip.src'
+ip.src == 192.168.210.71
+![Jarkom IP](image/soal7/Jarkom IP.png)
 
 ## Study Case Soal 8-10
 ---
