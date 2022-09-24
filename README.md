@@ -68,8 +68,6 @@ setelah ditemukan ip dari websitenya, masukkan filter ke dalam display filter, k
 ip.dst == 203.160.128.158
 ![lipi6](image/Soal6/lipi6.png)
 
-
-
 ## Soal 7
 ---
 Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
@@ -134,3 +132,8 @@ Percakapan pada tcp stream 12 terdapat clue untuk password pada file yang dikiri
 
 ## Kendala
 Pada awalnya belum mengetahui password dari file yang ditemukan, kemudian setelah waktu pengerjaan soal shift selesai kami baru menemukan passwordnya dan mendemokannya pada asisten penguji.
+
+### Pembagian Tugas
+Nomor 1-3 Muhammad Rifqi Fernanda
+Nomor 4-7 Gilang Bayu Gumantara
+Nomor 8-10 Salsabila Briliana Ananda Sofi
