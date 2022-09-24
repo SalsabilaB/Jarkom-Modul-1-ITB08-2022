@@ -37,11 +37,11 @@ Filter sehingga wireshark hanya menampilkan paket yang menuju ke lipi.go.id !
 ---
 pertama cari ip dari website lipi.go.id menggunakan cmd
 tracert lipi.go.id
-![iplipi](image/soal6/iplipi.png)
+![iplipi](image/Soal6/iplipi.png)
 
 setelah ditemukan ip dari websitenya, masukkan filter ke dalam display filter, karena yang dicari adalah paket yang menuju ke website, filternya menggunakan 'ip.dst'
 ip.dst == 203.160.128.158
-![lipi6](image/soal6/lipi6.png)
+![lipi6](image/Soal6/lipi6.png)
 
 
 
@@ -53,11 +53,11 @@ Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 ---
 pertama cari ip dari website lipi.go.id menggunakan cmd
 'ipconfig'
-![ip](image/soal7/ip.png)
+![ip](image/Soal7/ip.png)
 
 setelah ditemukan ip dari device kita, masukkan filter ke dalam display filter, karena yang dicari adalah paket yang berasal dari device kita, filternya menggunakan 'ip.src'
 ip.src == 192.168.210.71
-![ip7](image/soal7/ip7.png)
+![ip7](image/Soal7/ip7.png)
 
 ## Study Case Soal 8-10
 ---
