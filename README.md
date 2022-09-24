@@ -16,7 +16,7 @@ Filter sehingga wireshark hanya mengambil paket yang berasal dari port 21!
 Karena yang dicari adalah paket yang berasal dari port 21, untuk filternya menggunakan 'tcp.src' karena protocol yang digunakan port 21 adalah tcp.
 Masukkan filter ke dalam display filter.
 tcp.srcport == 21
-![port 21](image/soal4/port 21.png)
+
 ## Soal 5
 ---
 Filter sehingga wireshark hanya mengambil paket yang berasal dari port 443!
